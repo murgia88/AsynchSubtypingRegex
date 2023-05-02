@@ -1,0 +1,22 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+1 [label="1 < {b}.{b}.{b}.8
+Eps.1
+{b}.{b}.9
+{b}.10
+Eps.11
+{b}.{b}.{b}.{b}.7
+"]
+0 [label="0 < {b}.11
+{b}.{b}.10
+{b}.{b}.{b}.9
+{b}.{b}.{b}.{b}.{b}.7
+Eps.0
+{b}.{b}.{b}.{b}.8
+"]
+ENTRY -> 0
+1 -> 0 [label="!a"]
+0 -> 1 [label="?b"]
+
+}

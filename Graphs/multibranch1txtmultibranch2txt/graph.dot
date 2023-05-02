@@ -1,0 +1,47 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+4 [label="4 < {b2}.8
+{b1}.6
+"]
+2 [label="2 < {b}.3
+"]
+3 [label="3 < Eps.3
+"]
+9 [label="9 < {c3}.13
+"]
+8 [label="8 < {c2}.{c3}.13
+"]
+6 [label="6 < Eps.8
+"]
+10 [label="10 < Eps.13
+"]
+11 [label="11 < Eps.15
+"]
+5 [label="5 < Eps.6
+"]
+7 [label="7 < {a1}.15
+{c1}.{c2}.{c3}.13
+"]
+0 [label="0 < Eps.0
+"]
+1 [label="1 < {a3}.{c1}.{c2}.{c3}.13
+{a2}.{b1}.6
+{a1}.{b}.3
+{a2}.{b2}.8
+{a3}.{a1}.15
+"]
+ENTRY -> 0
+1 -> 7 [label="?a3"]
+1 -> 2 [label="?a1"]
+4 -> 6 [label="?b2"]
+8 -> 9 [label="?c2"]
+1 -> 4 [label="?a2"]
+7 -> 11 [label="?a1"]
+0 -> 1 [label="!x"]
+2 -> 3 [label="?b"]
+7 -> 8 [label="?c1"]
+9 -> 10 [label="?c3"]
+4 -> 5 [label="?b1"]
+
+}

@@ -1,0 +1,17 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+ ENTRY -> 0
+0 -> 1 [label="?a"]
+1 -> 2 [label="?a"]
+2 -> 8 [label="!x3"]
+8 -> 9 [label="?a"]
+9 -> 2 [label="?a"]
+2 -> 6 [label="!x2"]
+6 -> 7 [label="?a"]
+7 -> 2 [label="?a"]
+2 -> 3 [label="!x1"]
+3 -> 4 [label="?a"]
+4 -> 5 [label="?b"]
+5 -> 2 [label="?a"]
+}

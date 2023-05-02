@@ -1,0 +1,372 @@
+Checking: swap1.txt < swapko.txt
+False
+TRYING DUALS
+swap1.txt swapko.txt PASSED
+Checking: swapko.txt < swap1.txt
+False
+TRYING DUALS
+swapko.txt swap1.txt PASSED
+Checking: swap2.txt < swapko.txt
+False
+TRYING DUALS
+swap2.txt swapko.txt PASSED
+Checking: swapko.txt < swap2.txt
+False
+TRYING DUALS
+swapko.txt swap2.txt PASSED
+Checking: swapko2.txt < swap12.txt
+False
+TRYING DUALS
+swapko2.txt swap12.txt PASSED
+Checking: swap12.txt < swapko2.txt
+False
+TRYING DUALS
+swap12.txt swapko2.txt PASSED
+Checking: alceste-T.txt < alceste-V.txt
+False
+TRYING DUALS
+alceste-T.txt alceste-V.txt PASSED
+Checking: alcestewiki2.txt < alcestewiki1.txt
+False
+TRYING DUALS
+alcestewiki2.txt alcestewiki1.txt PASSED
+Checking: async2.txt < async1.txt
+False
+TRYING DUALS
+async2.txt async1.txt PASSED
+Checking: async3.txt < async2.txt
+False
+TRYING DUALS
+async3.txt async2.txt PASSED
+Checking: async3.txt < async1.txt
+False
+TRYING DUALS
+async3.txt async1.txt PASSED
+Checking: async2choice.txt < async1choice.txt
+False
+TRYING DUALS
+async2choice.txt async1choice.txt PASSED
+Checking: doublerec2.txt < doublerec.txt
+False
+TRYING DUALS
+doublerec2.txt doublerec.txt PASSED
+Checking: singlerex.txt < doublerec.txt
+False
+TRYING DUALS
+singlerex.txt doublerec.txt PASSED
+Checking: doublerec2.txt < singlerex.txt
+False
+TRYING DUALS
+doublerec2.txt singlerex.txt PASSED
+Checking: doublerec3.txt < singlerex.txt
+False
+TRYING DUALS
+doublerec3.txt singlerex.txt PASSED
+Checking: gchat2.txt < gchat1.txt
+False
+TRYING DUALS
+gchat2.txt gchat1.txt PASSED
+Checking: rec.txt < norec.txt
+False
+TRYING DUALS
+rec.txt norec.txt PASSED
+Checking: testb.txt < testa.txt
+False
+TRYING DUALS
+testb.txt testa.txt PASSED
+Checking: test2.txt < test1.txt
+False
+TRYING DUALS
+test2.txt test1.txt PASSED
+Checking: test3.txt < test2.txt
+False
+TRYING DUALS
+test3.txt test2.txt PASSED
+Checking: test3.txt < test1.txt
+False
+TRYING DUALS
+test3.txt test1.txt PASSED
+Checking: infinite1.txt < bad.txt
+False
+TRYING DUALS
+infinite1.txt bad.txt PASSED
+Checking: simp.txt < bad.txt
+False
+TRYING DUALS
+simp.txt bad.txt PASSED
+Checking: bad.txt < simp.txt
+False
+TRYING DUALS
+bad.txt simp.txt PASSED
+Checking: infinite1.txt < infinite1seq.txt
+False
+TRYING DUALS
+infinite1.txt infinite1seq.txt PASSED
+Checking: infinite1.txt < infinite2seq.txt
+False
+TRYING DUALS
+infinite1.txt infinite2seq.txt PASSED
+Checking: infinite2.txt < infinite1seq.txt
+False
+TRYING DUALS
+infinite2.txt infinite1seq.txt PASSED
+Checking: infinite2.txt < infinite2seq.txt
+False
+TRYING DUALS
+infinite2.txt infinite2seq.txt PASSED
+Checking: infinite2seq.txt < infinite2.txt
+False
+TRYING DUALS
+infinite2seq.txt infinite2.txt PASSED
+Checking: infinite1seq.txt < infinite2.txt
+False
+TRYING DUALS
+infinite1seq.txt infinite2.txt PASSED
+Checking: infinite2seq.txt < infinite1.txt
+False
+TRYING DUALS
+infinite2seq.txt infinite1.txt PASSED
+Checking: infinite1seq.txt < infinite1.txt
+False
+TRYING DUALS
+infinite1seq.txt infinite1.txt PASSED
+Checking: bbaa.txt < baba.txt
+False
+TRYING DUALS
+bbaa.txt baba.txt PASSED
+Checking: gchatrev1.txt < gchat2.txt
+False
+TRYING DUALS
+gchatrev1.txt gchat2.txt PASSED
+Checking: gchatrev1.txt < gchat1.txt
+False
+TRYING DUALS
+gchatrev1.txt gchat1.txt PASSED
+Checking: alternation1.txt < alternation2.txt
+False
+TRYING DUALS
+alternation1.txt alternation2.txt PASSED
+Checking: alternation1rcv.txt < alternation2rcv.txt
+False
+TRYING DUALS
+alternation1rcv.txt alternation2rcv.txt PASSED
+Checking: mixed2.txt < mixed1.txt
+False
+TRYING DUALS
+mixed2.txt mixed1.txt PASSED
+Checking: goal1.txt < goal1-ko.txt
+False
+TRYING DUALS
+goal1.txt goal1-ko.txt PASSED
+Checking: goal1.txt < goal2-ko.txt
+False
+TRYING DUALS
+goal1.txt goal2-ko.txt PASSED
+Checking: goal2.txt < goal3-ko.txt
+False
+TRYING DUALS
+goal2.txt goal3-ko.txt PASSED
+Checking: goal1.txt < goal3-ko.txt
+False
+TRYING DUALS
+goal1.txt goal3-ko.txt PASSED
+Checking: goal1-ko.txt < goal2.txt
+False
+TRYING DUALS
+goal1-ko.txt goal2.txt PASSED
+Checking: goal1-ko.txt < goal3.txt
+False
+TRYING DUALS
+goal1-ko.txt goal3.txt PASSED
+Checking: goal2rcv1-ko.txt < goal2rcv2.txt
+False
+TRYING DUALS
+goal2rcv1-ko.txt goal2rcv2.txt PASSED
+Checking: goal2rcv1.txt < goal2rcv2-ko.txt
+False
+TRYING DUALS
+goal2rcv1.txt goal2rcv2-ko.txt PASSED
+Checking: multibranch2.txt < multibranch1.txt
+False
+TRYING DUALS
+multibranch2.txt multibranch1.txt PASSED
+Checking: sendend1.txt < sendend2.txt
+False
+TRYING DUALS
+sendend1.txt sendend2.txt PASSED
+Checking: weakExtChoice2.txt < weakExtChoice1.txt
+False
+TRYING DUALS
+weakExtChoice2.txt weakExtChoice1.txt PASSED
+Checking: nestedrec1-ko.txt < nestedrec2.txt
+False
+TRYING DUALS
+nestedrec1-ko.txt nestedrec2.txt PASSED
+Checking: mess1.txt < mess2.txt
+False
+TRYING DUALS
+mess1.txt mess2.txt PASSED
+Checking: messa1.txt < messa2.txt
+False
+TRYING DUALS
+messa1.txt messa2.txt PASSED
+Checking: sndrcvorder1.txt < sndrcvorder2.txt
+False
+TRYING DUALS
+sndrcvorder1.txt sndrcvorder2.txt PASSED
+Checking: stackabb1.txt < stackba2.txt
+False
+TRYING DUALS
+stackabb1.txt stackba2.txt PASSED
+Checking: stackba2.txt < stackabb1.txt
+False
+TRYING DUALS
+stackba2.txt stackabb1.txt PASSED
+Checking: lgg1.txt < lgg2.txt
+False
+TRYING DUALS
+lgg1.txt lgg2.txt PASSED
+Checking: lgg2.txt < lgg1.txt
+False
+TRYING DUALS
+lgg2.txt lgg1.txt PASSED
+Checking: zzabb1.txt < zzba1.txt
+False
+TRYING DUALS
+zzabb1.txt zzba1.txt PASSED
+Checking: zzabb2.txt < zzba2.txt
+False
+TRYING DUALS
+zzabb2.txt zzba2.txt PASSED
+Checking: loop1.txt < loop2.txt
+False
+TRYING DUALS
+loop1.txt loop2.txt PASSED
+Checking: loop2.txt < loop1.txt
+False
+TRYING DUALS
+loop2.txt loop1.txt PASSED
+Checking: moreinternal.txt < lessinternal.txt
+False
+TRYING DUALS
+moreinternal.txt lessinternal.txt PASSED
+Checking: lessexternal.txt < moreexternal.txt
+False
+TRYING DUALS
+lessexternal.txt moreexternal.txt PASSED
+Checking: alceste-V.txt < alceste-U.txt
+False
+TRYING DUALS
+alceste-V.txt alceste-U.txt PASSED
+Checking: alceste-U-dual.txt < alceste-V-dual.txt
+False
+TRYING DUALS
+alceste-U-dual.txt alceste-V-dual.txt PASSED
+Checking: gchat2.txt < gchatrev1.txt
+False
+TRYING DUALS
+gchat2.txt gchatrev1.txt PASSED
+Checking: recaab2.txt < recaab1.txt
+False
+TRYING DUALS
+recaab2.txt recaab1.txt PASSED
+Checking: recctxt1-ko.txt < recctxt2.txt
+False
+TRYING DUALS
+recctxt1-ko.txt recctxt2.txt PASSED
+Checking: alternation1-rec.txt < alternation2-rec.txt
+False
+TRYING DUALS
+alternation1-rec.txt alternation2-rec.txt PASSED
+Checking: nestedrec1.txt < nestedrec2-ko.txt
+False
+TRYING DUALS
+nestedrec1.txt nestedrec2-ko.txt PASSED
+Checking: minirec1.txt < minirec2.txt
+False
+TRYING DUALS
+minirec1.txt minirec2.txt PASSED
+Checking: blacktriinside1.txt < blacktriinside2.txt
+False
+TRYING DUALS
+blacktriinside1.txt blacktriinside2.txt PASSED
+Checking: blacktriinside2.txt < blacktriinside1.txt
+False
+TRYING DUALS
+blacktriinside2.txt blacktriinside1.txt PASSED
+Checking: pattern1ko.txt < pattern2.txt
+False
+TRYING DUALS
+pattern1ko.txt pattern2.txt PASSED
+Checking: patternako.txt < patternb.txt
+False
+TRYING DUALS
+patternako.txt patternb.txt PASSED
+Checking: alceste-U.txt < alceste-V.txt
+False
+TRYING DUALS
+alceste-U.txt alceste-V.txt PASSED
+Checking: nestedrec1.txt < nestedrec2.txt
+False
+TRYING DUALS
+nestedrec1.txt nestedrec2.txt PASSED
+Checking: alceste-V-dual.txt < alceste-U-dual.txt
+False
+TRYING DUALS
+alceste-V-dual.txt alceste-U-dual.txt PASSED
+Checking: minirec2.txt < minirec1.txt
+False
+TRYING DUALS
+minirec2.txt minirec1.txt PASSED
+Checking: gchat1.txt < gchatrev1.txt
+False
+TRYING DUALS
+gchat1.txt gchatrev1.txt PASSED
+Checking: stateidx1.txt < stateidx2.txt
+False
+TRYING DUALS
+stateidx1.txt stateidx2.txt PASSED
+Checking: july2.txt < july1.txt
+False
+TRYING DUALS
+july2.txt july1.txt PASSED
+Checking: decidablilityex2.txt < decidablilityex1.txt
+False
+TRYING DUALS
+decidablilityex2.txt decidablilityex1.txt PASSED
+Checking: ctxtb2.txt < ctxtb1.txt
+False
+TRYING DUALS
+ctxtb2.txt ctxtb1.txt PASSED
+Checking: ctxta2.txt < ctxta1.txt
+False
+TRYING DUALS
+ctxta2.txt ctxta1.txt PASSED
+Checking: september2.txt < september1.txt
+False
+TRYING DUALS
+september2.txt september1.txt PASSED
+Checking: innerloop2-dual.txt < innerloop1-dual.txt
+False
+TRYING DUALS
+innerloop2-dual.txt innerloop1-dual.txt PASSED
+Checking: expensive2.txt < expensive1.txt
+False
+TRYING DUALS
+expensive2.txt expensive1.txt PASSED
+Checking: aaaaaab2.txt < aaaaaab1.txt
+False
+TRYING DUALS
+aaaaaab2.txt aaaaaab1.txt PASSED
+Checking: badseq2.txt < badseq1.txt
+False
+TRYING DUALS
+badseq2.txt badseq1.txt PASSED
+Checking: ex1.txt < ex2.txt
+False
+TRYING DUALS
+ex1.txt ex2.txt PASSED
+Total = 92
+Passed = 92
+Failed:
+List()

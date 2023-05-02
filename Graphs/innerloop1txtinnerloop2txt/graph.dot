@@ -1,0 +1,25 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+2 [label="2 < ({b,c,a})*.{c}.{a}.{c}.{a}.2
+{a}.{b}.2
+{a}.{c}.{a}.2
+({b,c,a})*.{b}.{b}.2
+({b,c,a})*.{c}.{a}.{b}.2
+({b,c,a})*.{b}.{c}.{a}.2
+"]
+1 [label="1 < {a}.2
+({b,c,a})*.{b}.2
+({b,c,a})*.{c}.{a}.2
+"]
+0 [label="0 < Eps.0
+({b,c,a})*.2
+"]
+ENTRY -> 0
+2 -> 0 [label="?a"]
+0 -> 1 [label="!x"]
+2 -> 0 [label="?c"]
+1 -> 2 [label="!x"]
+2 -> 0 [label="?b"]
+
+}
