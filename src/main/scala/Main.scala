@@ -155,7 +155,9 @@ TestList(PositiveList,"benchmarkPositiveLog4.txt",true,true,false,true)
 TestList(PositiveList,"benchmarkPositiveLog5.txt",true,true,false,true)
 }
 
-def PositiveList = List(("alceste-T.txt","alceste-U.txt"),
+def PositiveList = List(
+("sub-runningex.txt","sup-runningex.txt"),
+("alceste-T.txt","alceste-U.txt"),
 ("mixed1.txt","mixed2.txt"),
 ("alcestewiki1.txt","alcestewiki2.txt"),
 ("async1.txt","async2.txt"),

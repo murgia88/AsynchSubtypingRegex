@@ -1,3 +1,6 @@
+Checking: sub-runningex.txt < sup-runningex.txt
+True
+sub-runningex.txt sup-runningex.txt PASSED
 Checking: alceste-T.txt < alceste-U.txt
 True
 alceste-T.txt alceste-U.txt PASSED
@@ -251,7 +254,7 @@ aaaaaab1.txt aaaaaab2.txt PASSED
 Checking: ex1-ok-loop.txt < ex2-ok-loop.txt
 True
 ex1-ok-loop.txt ex2-ok-loop.txt PASSED
-Total = 82
-Passed = 81
+Total = 83
+Passed = 82
 Failed:
 List((march3testa1.txt,march3testb2.txt))
