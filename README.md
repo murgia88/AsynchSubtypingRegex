@@ -3,6 +3,7 @@ This tool implements the asynchronous subtyping algorithm introduced in [1], and
 
 Instructions:
 - Install Scala 3.2.2 and Scala Building Tools (SBT).
+- Install Graphviz: https://graphviz.org/
 - Download or clone this repository.
 - Open terminal on directory AsynchSubtypingRegex and run SBT.
 - Type "run" and press enter. This will execute the benchmarks.
