@@ -14,4 +14,4 @@ The output consists of:
 - A log file called "negativeLog.txt" which contains the results of the negative test.
 - Five log files "benchmarkPositiveLog1.txt",...,"benchmarkPositiveLog5.txt" which contain information on termination times for the positive tests. It must be remarked that termination times are misured with the generation of automata and graphs disabled. 
 
-[1] Laura Bocchi, Andy King, Maurizio Murgia: Asynchronous Session Subtyping by Trace Relaxation.
+[1] Authors omitted: Asynchronous Session Subtyping by Trace Relaxation.
