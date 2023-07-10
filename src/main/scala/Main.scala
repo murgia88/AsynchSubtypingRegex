@@ -8,6 +8,8 @@ BenchmarkPositive
 }
  
 def k = 1
+
+def simTreeDepth = 25
  
 def Subtype(M1:Automaton, M2:Automaton):returnType = {
 val sg = new SimGraph(M1,M2);
@@ -17,7 +19,7 @@ sg.buildSimGraph(k,50)._2
 def SubtypeAndOutputGraph(M1:Automaton, M2:Automaton,dir:String):returnType = {
 val sg = new SimGraph(M1,M2);
 val ret = sg.buildSimGraph(k,50);
-//val st = SimTree(M1,M2).buildSimTree(0,Some(Set(M2.treeOfState(0))),50);
+//val st = SimTree(M1,M2).buildSimTree(0,Some(Set(M2.treeOfState(0))),simTreeDepth);
 val path = java.nio.file.Paths.get(dir + "/");
 if !java.nio.file.Files.exists(path) then {java.nio.file.Files.createDirectories(path)};
 M1.toDot(dir + "/M1.dot",dir + "/M1.svg");
@@ -41,8 +43,8 @@ for (file1,file2) <- list do {
     timeOld = currentTime
   }
   total = total + 1
-  var type1 = scala.io.Source.fromFile(new File("testsJulien/"+file1)).mkString.mkString.replaceAll("\\s","");
-  var type2 = scala.io.Source.fromFile(new File("testsJulien/"+file2)).mkString.mkString.replaceAll("\\s","");
+  var type1 = scala.io.Source.fromFile(new File("benchmarks/"+file1)).mkString.mkString.replaceAll("\\s","");
+  var type2 = scala.io.Source.fromFile(new File("benchmarks/"+file2)).mkString.mkString.replaceAll("\\s","");
   logFile.println("Checking: " + file1 + " < " + file2)
   logFile.flush()
   p.parse(p.sessionType, type1) match
@@ -79,9 +81,10 @@ for (file1,file2) <- list do {
   						  }else{
   						    logFile.println(file1 + " " + file2 +" PASSED")
   						    logFile.println("BUILDING SIM-TREE")
-  						    val st = SimTree(M1,M2).buildSimTree(0,Some(Set(M2.treeOfState(0))),25);
+  						    val st = SimTree(M1,M2).buildSimTree(0,Some(Set(M2.treeOfState(0))),simTreeDepth);
   						    if (SimTree(M1,M2).hasErrors(st)) logFile.println("SUBTYPING DISPROVED")
   						    else logFile.println("COULD NOT DISPROVE SUBTYPING")
+  						    //st.toDot(dir + "/tree.dot",dir + "/tree.svg");
   						    passed = passed + 1;
   						  }
   						}else{
@@ -137,7 +140,11 @@ TestList(PositiveList,"positiveLog.txt",true,true,true,false)
 }
 
 def TestNegative = {
-TestList(NegativeList,"negativeLog.txt",false,true,false,false)
+TestList(NegativeList,"negativeLog.txt",false,true,true,false)
+}
+
+def TestNegative2 = {
+TestList(NegativeList,"negativeLog2.txt",false,false,false,false)
 }
 
 def BenchmarkPositive = {

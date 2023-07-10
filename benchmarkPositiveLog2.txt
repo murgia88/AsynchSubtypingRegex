@@ -5,7 +5,7 @@ Execution time: 0
 Checking: mixed1.txt < mixed2.txt
 True
 mixed1.txt mixed2.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: alcestewiki1.txt < alcestewiki2.txt
 True
 alcestewiki1.txt alcestewiki2.txt PASSED
@@ -13,7 +13,7 @@ Execution time: 1
 Checking: async1.txt < async2.txt
 True
 async1.txt async2.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: async2.txt < async3.txt
 True
 async2.txt async3.txt PASSED
@@ -21,11 +21,11 @@ Execution time: 1
 Checking: async1.txt < async3.txt
 True
 async1.txt async3.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: async1choice.txt < async2choice.txt
 True
 async1choice.txt async2choice.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: doublerec.txt < doublerec2.txt
 True
 doublerec.txt doublerec2.txt PASSED
@@ -33,7 +33,7 @@ Execution time: 2
 Checking: doublerec.txt < singlerex.txt
 True
 doublerec.txt singlerex.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: singlerex.txt < doublerec2.txt
 True
 singlerex.txt doublerec2.txt PASSED
@@ -41,19 +41,19 @@ Execution time: 1
 Checking: singlerex.txt < doublerec3.txt
 True
 singlerex.txt doublerec3.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: singlerex.txt < doublerec4.txt
 True
 singlerex.txt doublerec4.txt PASSED
-Execution time: 6
+Execution time: 4
 Checking: singlerex.txt < doublerec5.txt
 True
 singlerex.txt doublerec5.txt PASSED
-Execution time: 12
+Execution time: 9
 Checking: singlerex.txt < doublerec6.txt
 True
 singlerex.txt doublerec6.txt PASSED
-Execution time: 28
+Execution time: 20
 Checking: gchat1.txt < gchat2.txt
 True
 gchat1.txt gchat2.txt PASSED
@@ -61,15 +61,15 @@ Execution time: 1
 Checking: heavy1.txt < heavy2.txt
 True
 heavy1.txt heavy2.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: heavy2.txt < heavy1.txt
 True
 heavy2.txt heavy1.txt PASSED
-Execution time: 0
+Execution time: 1
 Checking: lessinternal.txt < moreinternal.txt
 True
 lessinternal.txt moreinternal.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: moreexternal.txt < lessexternal.txt
 True
 moreexternal.txt lessexternal.txt PASSED
@@ -85,7 +85,7 @@ Execution time: 1
 Checking: test1.txt < test2.txt
 True
 test1.txt test2.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: test2.txt < test3.txt
 True
 test2.txt test3.txt PASSED
@@ -93,7 +93,7 @@ Execution time: 1
 Checking: test1.txt < test3.txt
 True
 test1.txt test3.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: wikiv2-1.txt < wikiv2-2.txt
 True
 wikiv2-1.txt wikiv2-2.txt PASSED
@@ -101,35 +101,35 @@ Execution time: 0
 Checking: wikiv2-1.txt < wikiv2-3.txt
 True
 wikiv2-1.txt wikiv2-3.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: singlerexrev.txt < singlerex.txt
 True
 singlerexrev.txt singlerex.txt PASSED
-Execution time: 0
+Execution time: 1
 Checking: infinite1seq.txt < infinite2seq.txt
 True
 infinite1seq.txt infinite2seq.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: singlerexunfold2.txt < doublerec3.txt
 True
 singlerexunfold2.txt doublerec3.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: singlerexunfold.txt < doublerec2.txt
 True
 singlerexunfold.txt doublerec2.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: singlerexunfold.txt < doublerec3.txt
 True
 singlerexunfold.txt doublerec3.txt PASSED
-Execution time: 5
+Execution time: 4
 Checking: singlerexunfold.txt < doublerec4.txt
 True
 singlerexunfold.txt doublerec4.txt PASSED
-Execution time: 5
+Execution time: 3
 Checking: singlerexunfold.txt < doublerec6.txt
 True
 singlerexunfold.txt doublerec6.txt PASSED
-Execution time: 22
+Execution time: 16
 Checking: baba.txt < bbaa.txt
 True
 baba.txt bbaa.txt PASSED
@@ -137,11 +137,11 @@ Execution time: 1
 Checking: alternation1.txt < alternation2-ok.txt
 True
 alternation1.txt alternation2-ok.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: goal1.txt < goal2.txt
 True
 goal1.txt goal2.txt PASSED
-Execution time: 3
+Execution time: 2
 Checking: goal2.txt < goal3.txt
 True
 goal2.txt goal3.txt PASSED
@@ -149,35 +149,35 @@ Execution time: 2
 Checking: goal1.txt < goal3.txt
 True
 goal1.txt goal3.txt PASSED
-Execution time: 3
+Execution time: 2
 Checking: goal1-ko.txt < goal2-ko.txt
 True
 goal1-ko.txt goal2-ko.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: goal1-ko.txt < goal3-ko.txt
 True
 goal1-ko.txt goal3-ko.txt PASSED
-Execution time: 3
+Execution time: 2
 Checking: goal2-ko.txt < goal3-ko.txt
 True
 goal2-ko.txt goal3-ko.txt PASSED
+Execution time: 1
+Checking: goal2rcv1.txt < goal2rcv2.txt
+True
+goal2rcv1.txt goal2rcv2.txt PASSED
+Execution time: 4
+Checking: goal2rcv1.txt < goal2rcv2.txt
+True
+goal2rcv1.txt goal2rcv2.txt PASSED
 Execution time: 3
-Checking: goal2rcv1.txt < goal2rcv2.txt
-True
-goal2rcv1.txt goal2rcv2.txt PASSED
-Execution time: 5
-Checking: goal2rcv1.txt < goal2rcv2.txt
-True
-goal2rcv1.txt goal2rcv2.txt PASSED
-Execution time: 5
 Checking: goal2rcv1-ko.txt < goal2rcv2-ko.txt
 True
 goal2rcv1-ko.txt goal2rcv2-ko.txt PASSED
-Execution time: 5
+Execution time: 3
 Checking: multibranch1.txt < multibranch2.txt
 True
 multibranch1.txt multibranch2.txt PASSED
-Execution time: 13
+Execution time: 9
 Checking: recaab1.txt < recaab2.txt
 True
 recaab1.txt recaab2.txt PASSED
@@ -185,7 +185,7 @@ Execution time: 1
 Checking: sendend1-ok.txt < sendend2.txt
 True
 sendend1-ok.txt sendend2.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: weakExtChoice1.txt < weakExtChoice2.txt
 True
 weakExtChoice1.txt weakExtChoice2.txt PASSED
@@ -193,7 +193,7 @@ Execution time: 1
 Checking: pattern1.txt < pattern2.txt
 True
 pattern1.txt pattern2.txt PASSED
-Execution time: 3
+Execution time: 2
 Checking: sndrcvorder2.txt < sndrcvorder1.txt
 True
 sndrcvorder2.txt sndrcvorder1.txt PASSED
@@ -201,11 +201,11 @@ Execution time: 2
 Checking: reflsnd1.txt < reflsnd1.txt
 True
 reflsnd1.txt reflsnd1.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: reflrcv2.txt < reflrcv2.txt
 True
 reflrcv2.txt reflrcv2.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: syncloop1.txt < syncloop2.txt
 True
 syncloop1.txt syncloop2.txt PASSED
@@ -213,15 +213,15 @@ Execution time: 1
 Checking: infinite1.txt < infinite2.txt
 True
 infinite1.txt infinite2.txt PASSED
-Execution time: 5
+Execution time: 3
 Checking: infinitea.txt < infiniteb.txt
 True
 infinitea.txt infiniteb.txt PASSED
-Execution time: 56
+Execution time: 38
 Checking: infinite1extra.txt < infinite2extra.txt
 True
 infinite1extra.txt infinite2extra.txt PASSED
-Execution time: 405
+Execution time: 274
 Checking: gchat1-nonbranch.txt < gchatrev1-nobranch.txt
 True
 gchat1-nonbranch.txt gchatrev1-nobranch.txt PASSED
@@ -230,109 +230,109 @@ Checking: june1.txt < june2.txt
 False
 TRYING DUALS
 june1.txt june2.txt PASSED
-Execution time: 85
+Execution time: 53
 Checking: offset1.txt < offset2.txt
 True
 offset1.txt offset2.txt PASSED
-Execution time: 121
+Execution time: 80
 Checking: innerloop1-dual.txt < innerloop2-dual.txt
 True
 innerloop1-dual.txt innerloop2-dual.txt PASSED
-Execution time: 40
+Execution time: 30
 Checking: snewex1.txt < snewex2.txt
 True
 snewex1.txt snewex2.txt PASSED
-Execution time: 32
+Execution time: 23
 Checking: recinbranch2.txt < recinbranch1.txt
 True
 recinbranch2.txt recinbranch1.txt PASSED
-Execution time: 2
+Execution time: 1
 Checking: recctxt1.txt < recctxt2.txt
 True
 recctxt1.txt recctxt2.txt PASSED
-Execution time: 1
+Execution time: 3
 Checking: alternation1-rec.txt < alternation2-ok-rec.txt
 True
 alternation1-rec.txt alternation2-ok-rec.txt PASSED
-Execution time: 1
+Execution time: 0
 Checking: patternthenloop1.txt < patternthenloop2.txt
 True
 patternthenloop1.txt patternthenloop2.txt PASSED
-Execution time: 91
+Execution time: 65
 Checking: forall1.txt < forall2.txt
 True
 forall1.txt forall2.txt PASSED
-Execution time: 68
+Execution time: 49
 Checking: july1.txt < july2.txt
 True
 july1.txt july2.txt PASSED
-Execution time: 79
+Execution time: 54
 Checking: september1.txt < september2.txt
 False
 TRYING DUALS
 september1.txt september2.txt PASSED
-Execution time: 133
+Execution time: 97
 Checking: decidablilityex1.txt < decidablilityex2.txt
 True
 decidablilityex1.txt decidablilityex2.txt PASSED
-Execution time: 101
+Execution time: 74
 Checking: smallinnerloop1.txt < innerloop2.txt
 True
 smallinnerloop1.txt innerloop2.txt PASSED
-Execution time: 90
+Execution time: 69
 Checking: innerloop1.txt < innerloop2.txt
 True
 innerloop1.txt innerloop2.txt PASSED
-Execution time: 638
+Execution time: 448
 Checking: twinstar.txt < ex2.txt
 True
 twinstar.txt ex2.txt PASSED
-Execution time: 522
+Execution time: 366
 Checking: mario-b.txt < ex2.txt
 True
 mario-b.txt ex2.txt PASSED
-Execution time: 541
+Execution time: 374
 Checking: expensive1.txt < expensive2.txt
 True
 expensive1.txt expensive2.txt PASSED
-Execution time: 84
+Execution time: 60
 Checking: ctxta1.txt < ctxta2.txt
 False
 TRYING DUALS
 ctxta1.txt ctxta2.txt PASSED
-Execution time: 145
+Execution time: 95
 Checking: ctxtb1.txt < ctxtb2.txt
 False
 TRYING DUALS
 ctxtb1.txt ctxtb2.txt PASSED
-Execution time: 56
+Execution time: 36
 Checking: badseq1.txt < badseq2.txt
 False
 TRYING DUALS
 badseq1.txt badseq2.txt PASSED
-Execution time: 1503
+Execution time: 991
 Checking: march3testa1.txt < march3testa2.txt
 False
 TRYING DUALS
 march3testa1.txt march3testa2.txt PASSED
-Execution time: 302
+Execution time: 197
 Checking: march3testa1.txt < march3testb2.txt
 False
 TRYING DUALS
 march3testa1.txt march3testb2.txt FAILED
-Execution time: 10
+Execution time: 7
 Checking: 14may2.txt < 14may1.txt
 True
 14may2.txt 14may1.txt PASSED
-Execution time: 14
+Execution time: 7
 Checking: aaaaaab1.txt < aaaaaab2.txt
 True
 aaaaaab1.txt aaaaaab2.txt PASSED
-Execution time: 66
+Execution time: 38
 Checking: ex1-ok-loop.txt < ex2-ok-loop.txt
 True
 ex1-ok-loop.txt ex2-ok-loop.txt PASSED
-Execution time: 2504
+Execution time: 1555
 Total = 82
 Passed = 81
 Failed:

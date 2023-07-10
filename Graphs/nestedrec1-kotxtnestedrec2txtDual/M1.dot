@@ -1,0 +1,10 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+ ENTRY -> 0
+0 -> 1 [label="!y"]
+1 -> 2 [label="?a"]
+2 -> 3 [label="?a3"]
+2 -> 2 [label="?a2"]
+2 -> 1 [label="?a1"]
+}

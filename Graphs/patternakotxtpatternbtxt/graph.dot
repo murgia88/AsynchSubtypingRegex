@@ -1,0 +1,27 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+3 [label="3 < ({x1}.{x2})*.3
+"]
+0 [label="0 < Eps.4
+Eps.0
+"]
+2 [label="2 < {x2}.{x1}.{x2}.3
+{x2}.3
+"]
+5 [label="5 < ({x1}.{x2})*.3
+" color="red"]
+1 [label="1 < {x1}.{x2}.3
+{x1}.{x2}.{x1}.{x2}.3
+"]
+4 [label="4 < {x2}.({x1}.{x2})*.3
+"]
+ENTRY -> 0
+1 -> 2 [label="?x1"]
+4 -> 5 [label="?x2"]
+3 -> 0 [label="?z"]
+0 -> 1 [label="!w"]
+2 -> 3 [label="?x2"]
+3 -> 4 [label="?x1"]
+
+}

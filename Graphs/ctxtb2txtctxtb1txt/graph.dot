@@ -1,0 +1,8 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+0 [label="0 < Eps.0
+" color="red"]
+ENTRY -> 0
+
+}

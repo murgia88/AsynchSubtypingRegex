@@ -1,0 +1,15 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+2 [label="2 < Eps.4
+"]
+1 [label="1 < Eps.1
+"]
+0 [label="0 < Eps.0
+Eps.2
+" color="red"]
+ENTRY -> 0
+2 -> 2 [label="!x"]
+1 -> 0 [label="!x"]
+
+}
