@@ -1,0 +1,26 @@
+digraph {
+ node [shape=point] ENTRY
+ node [shape=circle]
+3 [label="3 < {b}.{b}.9
+{b}.{b}.{b}.{b}.7
+Eps.11
+"]
+2 [label="2 < {b}.{b}.{b}.9
+{b}.{b}.{b}.{b}.{b}.7
+{b}.11
+"]
+1 [label="1 < {b}.10
+{b}.{b}.{b}.8
+Eps.1
+"]
+0 [label="0 < Eps.0
+{b}.{b}.{b}.{b}.8
+{b}.{b}.10
+"]
+ENTRY -> 0
+3 -> 0 [label="!a"]
+2 -> 3 [label="?b"]
+1 -> 2 [label="!a"]
+0 -> 1 [label="?b"]
+
+}
