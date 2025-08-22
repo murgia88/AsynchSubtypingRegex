@@ -10,4 +10,4 @@ Instructions:
 
 The generated outputs consists of the graphical representations of the automata under analysis and the corresponding simulation graph. If called with -d, automata and graphs are generated for the duals. 
 
-[1] Laura Bocchi, Andy King, Maurizio Murgia: Asynchronous Session Subtyping by Trace Relaxation.
+[1] Laura Bocchi, Andy King, Maurizio Murgia: Asynchronous Session Subtyping by Trace Relaxation. In TACAS 2024. https://link.springer.com/chapter/10.1007/978-3-031-57246-3_12
