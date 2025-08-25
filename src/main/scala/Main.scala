@@ -9,7 +9,7 @@ object Main:
                       file2: String,
                       @arg(doc="Output directory",positional = true)
                       dir: String,
-                      @arg(short = 'd', doc="If passed, subtyping is performed on the dual of the input types, in reverse order (that is, dual(file2) < dual(file1) is computed).")
+                      @arg(short = 'd', doc="Checks dual(file2) < dual(file1)")
                       dual: Flag
                 ) = {
         var type1 = scala.io.Source.fromFile(new File(file1)).mkString.mkString.replaceAll("\\s","");
