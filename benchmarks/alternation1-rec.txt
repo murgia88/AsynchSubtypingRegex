@@ -1,1 +1,0 @@
-!a ; &[?b;  rec X . !w; X   ,   ?c; rec Y. ?u; Y]
